@@ -1,0 +1,26 @@
+.section1{   
+    padding: 0;
+    height: 500px;
+    width: 300px;
+    background-color: aqua;
+    position: absolute;
+    top: 200px;
+    left: 200px;
+}
+.section2{   
+    padding: 0;
+    height: 500px;
+    width: 300px;
+    background-color: aquamarine;
+    position: absolute;
+    top: 200px;
+    left: 600px;
+}
+.box{
+    padding: 20px;
+    width: fit-content;
+    background-color: antiquewhite;
+    position: absolute;
+    top: -30px;
+    left: 30px;
+}

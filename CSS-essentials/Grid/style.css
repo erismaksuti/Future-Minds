@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {font-family: sans-serif ;}
+.wrapper {
+    background-color: aqua;
+    display: grid;
+    grid-template-areas: 
+        "mn hd hd hd hd hd"
+        "mn ct ct ct ct ct"
+        "mn ft ft ft ft ft"
+    ;
+}
+.wrapper > div {
+    padding: 20px;
+}
+.item1 {
+     grid-area: hd; 
+     height: 10vh; 
+     background-color:  azure; 
+    display: flex;
+    justify-content: space-between;
+    }
+    .header-left{
+        display: flex;
+        gap: 10px;
+        align-items: center;
+    }
+    .header-left div:first-child{
+        border-radius: 50%;
+        background-color: white;
+        padding: 10px;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+        display: flex;
+        align-items: center;
+    }
+    .header-left div:first-child img {
+        width: 30px;
+    }
+.item2 { 
+    grid-area: mn; 
+    height: 100vh; 
+    background-color:bisque;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+}
+.item2 ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    grid-area: 10px;
+}
+.item2 ul li { 
+    background-color: white; 
+    border-radius: 0 10px 10px 0; 
+    padding: 10px; 
+}
+.Logo {
+    margin-bottom: 20px;
+}
+.item3 { grid-area: ct; height: 80vh; background-color: cadetblue;}
+.item4 { grid-area: ft; height: 10vh; background-color: chocolate;}
+

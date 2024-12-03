@@ -1,0 +1,495 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box !important;
+}
+
+body{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Outfit", serif;
+    
+}
+
+body p{
+    color: #616368;
+}
+
+
+
+.logo{
+    width: 80px;
+    margin-left: 10px;
+    padding-top: 10px;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-block: 2rem 0rem;
+
+}
+
+header nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-inline: 50px;
+}
+
+header li{
+    display: inline;
+    padding-inline: 5px;
+}
+header ul{
+    padding-inline: 20px;
+}
+
+.submit{
+    background-color: blue;
+    color: white;
+    border: 0px;
+    font-family: "Outfit", serif;
+    font-weight: 500;
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 20px;
+}
+
+nav{
+    font-family: "Outfit", serif;
+    font-weight: 500;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(48, 48, 48) !important;
+}
+
+main{
+    width: 100%;
+}
+.container{
+    display: flex;
+    gap: 1rem;
+    margin-inline: 14rem !important;
+    align-items: center;
+    padding-block: 1rem !important;
+    justify-content: center;
+}
+
+.container-medium{
+    display: flex;
+    gap: 1rem;
+
+    align-items: center;
+    padding-block: 1rem !important;
+    width: 100%;
+    justify-content: center;
+}
+
+.container-md{
+    display: flex;
+    gap: 1rem;
+    margin-inline: 10rem;
+    align-items: center;
+    padding-block: 1rem !important;
+    width: 75%;
+    justify-content: center;
+}
+
+#first .container div{
+    flex: 1;
+}
+
+.left{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.left h1{
+    width: 100%;
+    color: #242f51;
+    font-size: 40px;
+}
+.left .check{
+    background-color: orange;
+    padding: 5px;
+    border-radius: 20px;
+}
+.left .best-choice{
+    display: flex;
+    border: 0px solid;
+    border-radius: 20px !important;
+    background-color: #eee;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+    width: fit-content;
+}
+.left img{
+    width: 30px;
+}
+.left .text{
+    border-radius: 20px;
+    padding: 0px 20px 0px 10px;
+    font-weight: 400 !important;
+
+}
+.left a{
+    text-decoration: none;
+    color: blue;
+}
+.left .buttons{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.left .sometext{
+    color: rgb(48, 48, 48) !important;
+    width: 100%;
+}
+
+.right{
+    width: 100%;
+
+}
+
+.thephone{
+    display: flex;
+    flex-direction: row;
+    padding-inline: 4rem;
+}
+
+.phone{
+    height: 88vh;
+}
+#first{
+    background-image: url(../images/hero-bldg.png);
+    width: 100%;
+    background-repeat: repeat-x;
+    background-size: 60% 160px;
+    background-position-y: bottom;
+}
+
+#trusted-companies{
+    align-items: center !important;
+    padding-block: 100px;
+    text-align: center !important;
+
+}
+
+#trusted-companies .companies{
+    display: flex;
+    justify-content: center;
+    padding-block: 30px;
+    align-items: center;
+    color: #242f51;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+}
+.companies img{
+    width: 100px !important;
+}
+
+#phone-lady .container{
+    color: #242f51;
+}
+
+#phone-lady p{
+    font-size: 14px !important;
+}
+
+.phone-lady img{
+    height: 88vh !important;
+}
+.phone-lady-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.phone-lady-icons img{
+    width: 40px;
+    height: 38px;
+}
+
+
+.phone-lady-info{
+    display: flex;
+    gap: 1rem;
+}
+
+.phone-lady-fp{
+    background-color: #feecee;
+    color: #f45766;
+    border-radius: 50px;
+    width: fit-content !important;
+    height: fit-content;
+    padding: 10px;
+}
+.phone-lady-p{
+    background-color: #f4f4ff;
+    color: #2664ff;
+    border-radius: 50px;
+    width: fit-content !important;
+    height: fit-content;
+    padding: 10px;
+}
+.phone-lady-v{
+    background-color: #e4ffee;
+    color: #539f6f;
+    border-radius: 50px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    
+}
+
+.phone-lady-icontext h4{
+    padding-bottom: 5px;
+}
+.phone-lady-icontext p{
+    width: 60%;
+}
+.fast-performance{
+    color: #f45766;
+}
+.prototyping{
+    color: #2664ff;
+}
+.vector{
+    color: #539f6f;
+}
+
+.phone-lady-title{
+    gap: 2rem;
+    padding-bottom: 40px !important;
+}
+
+.phone-lady-title h2{
+    width: 60%;
+}
+
+.phone-lady-title p{
+    width: 80%;
+}
+
+.phone-lady-icontext{
+    gap: 10px;
+    padding-inline-start: 10px;
+}
+
+/*-jackpots*/
+
+.container-lg{
+    width: 70% !important;
+    position: relative;
+}
+
+.jackpots-title{
+    width: 80%;
+    font-size: 20px;
+    color: #242f51;
+    padding-inline-end: 65px;
+
+}
+.jackpots-text{
+    width: 80%;
+    padding-block: 10px;
+    font-size: 14px;
+    padding-inline: 30px;
+}
+.jackpots-vr{
+    border-left: 1.5px solid #d2d2d2;
+    height: 100px;
+    color: transparent;
+}
+
+/*-third-col*/
+
+.third-col-icon img{
+    width: 40px;
+}
+.pink-text{
+    color: #f45766;
+}
+.blue-text{
+    color: #2664ff;
+}
+.green-text{
+    color: #539f6f;
+}
+
+.bg-pink{
+    background-color: #feecee;
+}
+.bg-blue{
+    background-color: #f4f4ff;
+}
+.bg-green{
+    background-color: #e4ffee;
+}
+
+.third-col-total{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.third-col-text{
+    display: flex;
+    flex-direction: column;
+    gap: 0.3rem;
+}
+
+
+.third-col-icon{
+    border-radius: 50px;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    text-align: center;
+}
+.third-col-icon img{
+    height: 38px;
+    width: 40px;
+}
+
+.third-col-text p{
+    font-size: 14px !important;
+    width: 80%;
+}
+
+.align-center{
+    justify-content: center;
+    align-items: center;
+}
+.align-start{
+    justify-content: start;
+    align-items: center;
+}
+.text-center{
+    text-align: center;
+}
+
+section{
+    padding-block: 30px;
+}
+
+/*--Designed..--*/
+
+.lastest-code-left img{
+    width: 75%;
+}
+.lastest-code-right{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem   ;
+}
+.lastest-code-right h1{
+    width: 70%;
+}
+.lastest-code-right p{
+    font-size: 14px;
+}
+
+.fit-content{
+    width: fit-content;
+}
+button{
+    padding-inline: 20px ;
+}
+
+.our-app-title{
+    gap: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+.our-app-h1{    
+    padding-inline: 33%;
+}
+.our-app-p{
+    font-size: 14px;
+    padding-inline: 19%;
+}
+
+.middle-line{
+    border-bottom: 1.5px solid #d2d2d2;
+    width: 95%;
+}
+
+h1{
+    color: #242f51;
+}
+
+footer{
+    background-color: #242f51;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.logo-footer{
+    padding-block: 50px;
+}
+
+.flex-column{
+    flex-direction: column ;
+    display: flex ;
+}
+.flex-row{
+    flex-direction: row ;
+    display: flex ;
+}
+
+.prices-title h1{
+    padding-inline: 25%;
+}
+
+.prices-buttons{
+    border: 1px solid #d2d2d2;
+    border-radius: 50px;
+    padding: 2px;
+}
+
+.blank-button{
+    background-color: transparent ;
+    border: 0px;
+}
+.prices h1{
+    font-size: 40px;
+}
+h3{
+    color: #242f51;
+}
+.month{
+    font-size: 14px;
+    color: gray;
+    font-weight: 400;
+}
+
+.card{
+    box-shadow: 0px 0px ;
+}
+.first{
+    padding-block: 20px;
+}
+.first {
+    background-color: rgb(214, 213, 213);
+    padding: 30px;
+}
+.card2{
+   border-radius: 20px;
+   padding: 60px;
+   box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+   text-align: center;
+}
+
+
